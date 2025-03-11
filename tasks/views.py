@@ -8,7 +8,7 @@ from tasks.models import Task, Status
 
 #home(request)
 def home(request):
-    return render(request, 'tasks/list.html')
+    return render(request, 'home.html')
 
 #create_task(request)
 def create_task(request):
